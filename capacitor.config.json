@@ -1,9 +1,6 @@
 {
   "appId": "com.rubel.videostudio",
   "appName": "RUBEL VIDEO STUDIO",
-  "webDir": ".",
-  "bundledWebRuntime": false,
-  "server": {
-    "androidScheme": "https"
-  }
+  "webDir": "www",
+  "bundledWebRuntime": false
 }
