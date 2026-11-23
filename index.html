@@ -162,4 +162,4 @@ async function go(k){if(k=='new'){newP();return openEd('media')}
 [['🎬','নতুন প্রজেক্ট','new'],['✂️','ভিডিও এডিটর','edit'],['🎵','অডিও স্টুডিও','audio'],['🤖','AI স্টুডিও','ai'],['🖼️','ফটো এডিটর','media'],['🎨','ইফেক্টস','fx'],['📝','টেক্সট স্টুডিও','text'],['📁','মাই প্রজেক্টস','pj'],['🎞️','টেমপ্লেটস','tp'],['⚙️','সেটিংস','st']].forEach(a=>{const b=document.createElement('button');b.innerHTML=`<span>${a[0]}</span>${a[1]}`;b.onclick=()=>go(a[2]);$('#gr').append(b)});
 TABS.forEach(a=>{const b=document.createElement('button');b.dataset.k=a[0];b.innerHTML=`<span>${a[1]}</span>${a[2]}`;b.onclick=()=>tb(a[0]);$('#tabs').append(b)});
 newP();resize();requestAnimationFrame(loop);if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
-</script></body></html>
+</script><script src="music.js"></script></body></html>
